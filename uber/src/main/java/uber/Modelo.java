@@ -1,0 +1,17 @@
+package uber;
+
+public enum Modelo {
+	GIGIULIETTA,
+	BOLT,
+	CAPTIVA,
+	CRUZE,
+	EQUINOX,
+	GRAND_VITARA,
+	MALIBU,
+	TRACKER,
+	TRAILBLAZER,
+	FASTBACK,
+	FREEMONT,
+	BRONCO,
+	FUSION,
+}
