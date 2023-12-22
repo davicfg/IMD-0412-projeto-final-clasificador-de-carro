@@ -35,7 +35,22 @@ public class ModeloBlack {
 		this.carros.add(c);
 	}
 	
-	public boolean validar() {
+	
+	public boolean validar(Carro c) {
+		if(this.quantidadePortas(c) && this.quantidadeLugares(c)) {
+			return true;
+		}
 		return false;
 	}
+
+	private boolean quantidadePortas(Carro c) {
+		return c.getQuantidadePortas() == 4;
+	}
+	
+	private boolean quantidadeLugares(Carro c) {
+		return c.getQuantidadeLugares() == 4;
+	}
+	
+	
+	
 }

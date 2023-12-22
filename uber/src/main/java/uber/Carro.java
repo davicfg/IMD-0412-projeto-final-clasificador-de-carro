@@ -20,4 +20,14 @@ public class Carro {
 		this.marca = marca;
 		this.modelo = modelo;
 	}
+	
+	public int getQuantidadePortas() {
+		return this.quantidadePortas;
+	}
+
+	public int getQuantidadeLugares() {
+		// TODO Auto-generated method stub
+		return this.quantidadeLugares;
+	}
+
 }
