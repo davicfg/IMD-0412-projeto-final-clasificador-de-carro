@@ -1,4 +1,4 @@
-# IMD-0412: projeto final clasificador de carros uber
+# IMD-0412: projeto final classificador de carros uber
  
 ## Passos para rodar o projeto
 - Abrir projeto no eclipce, ou na sua ide favorita;
