@@ -11,17 +11,17 @@ public class UberConfortValidador {
 	
 
 	UberConfortValidador() {
-		Carro c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.ALFA_ROMEO, Modelo.GIGIULIETTA);
+		Carro c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FIAT, Modelo.PULSE);
 		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.BOLT);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.ONIXPLUS);
+		this.carros.add(c);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.SPIN);
+		this.carros.add(c);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHERRY, Modelo.TIGGO);
+		this.carros.add(c);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHERRY, Modelo.TIGGO8);
 		this.carros.add(c);
 		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.CAPTIVA);
-		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.EQUINOX);
-		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.GRAND_VITARA);
-		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.MALIBU);
 		this.carros.add(c);
 		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.CRUZE);
 		this.carros.add(c);
@@ -29,13 +29,13 @@ public class UberConfortValidador {
 		this.carros.add(c);
 		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.CHEVROLET, Modelo.TRAILBLAZER);
 		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FIAT, Modelo.FASTBACK);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FIAT, Modelo.IDEAATTRACTIVE);
 		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FIAT, Modelo.FREEMONT);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FIAT, Modelo.CRONOS);
 		this.carros.add(c);
 		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FORD, Modelo.BRONCO);
 		this.carros.add(c);
-		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FORD, Modelo.FUSION);
+		c = new Carro(arCondicionado, quantidadePortas, quantidadeLugares, anoFabricacao, Marca.FORD, Modelo.ECOSPORT);
 		this.carros.add(c);
 	}
 	
