@@ -7,7 +7,7 @@ public class UberConfortValidador {
 	private final static boolean arCondicionado= true;
 	private final static int quantidadePortas= 4;
 	private final static int quantidadeLugares= 5;
-	private final static int anoFabricacao = 2016;
+	private final static int anoFabricacao = 2015;
 	
 
 	UberConfortValidador() {
