@@ -14,4 +14,5 @@ public enum Modelo {
 	FREEMONT,
 	BRONCO,
 	FUSION,
+	QQ
 }

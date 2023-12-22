@@ -4,5 +4,6 @@ public enum Marca {
 	ALFA_ROMEO, 
 	CHEVROLET, 
 	FIAT, 
-	FORD
+	FORD,
+	CHERRY
 }
