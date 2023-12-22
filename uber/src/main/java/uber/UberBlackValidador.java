@@ -48,15 +48,15 @@ public class UberBlackValidador {
 	}
 
 	private boolean quantidadePortas(Carro c) {
-		return c.getQuantidadePortas() == 4;
+		return c.getQuantidadePortas() == quantidadePortas;
 	}
 	
 	private boolean quantidadeLugares(Carro c) {
-		return c.getQuantidadeLugares() == 5;
+		return c.getQuantidadeLugares() == quantidadeLugares;
 	}
 	
 	private boolean anoFrabricao(Carro c) {
-		return c.getAnoFabricacao() >= 2016;
+		return c.getAnoFabricacao() >= anoFabricacao;
 	}
 	
 	private boolean MarcaModelo(Carro c) {
